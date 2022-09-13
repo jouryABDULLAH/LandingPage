@@ -107,3 +107,70 @@ h4{
     width: 9rem;
     margin-top: 4px;
 }
+
+.middle-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: wheat;
+    margin-top: 2rem;
+}
+
+.middle-section p{
+    width: 29rem;
+
+}
+
+.qoute{
+    margin-right:auto ;
+    padding-left: 21rem;
+}
+
+.sign-up-section-containter{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    width: 100%;
+    height: 300px;
+}
+
+.sign-up-section{
+    display: flex;
+    background-color: rgb(86, 128, 114);
+    margin: 54px;
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+    padding: 3rem;
+}
+
+.btn{
+       /* align-self: flex-end; */
+       background-color: wheat;
+       border-color: white;
+       border-style: solid;
+       padding: 8px;
+       border-radius: 5px;
+       border-width: 4px;
+       color: white;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(29, 46, 40) ;
+    text-align: center;
+}
+
+.copry-right{
+    margin: 0 auto;
+    
+    color: white;
+
+}
